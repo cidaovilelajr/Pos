@@ -39,7 +39,7 @@ $ hadoop fs -rm -r /user/wordcount/output
 Após ter compilado o projeto e copiado o dataset para o HFS:
 
 ```bash
-$ hadoop jar target/WordCount-1.0-SNAPSHOT.jar com.fundamentosbigdata.WordCount /user/wordcount/input /user/wordcount/output
+$ hadoop jar target/WordCount-1.0-SNAPSHOT.jar com.pos.WordCount /user/wordcount/input /user/wordcount/output
 ```
 
 Após a execução da tarefa, o resultado estará disponível em `/user/wordcount/output`. Você pode listar os arquivos gerados usando:
